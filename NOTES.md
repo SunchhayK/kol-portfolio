@@ -1,7 +1,10 @@
 # Portfolio spec — Roit Sovanmongkol
 
 Objective: a personal brand portfolio site for Roit Sovanmongkol, UX/UI designer, Phnom Penh.
-Status: built, verified, ready to deploy once the five placeholders are filled.
+Status: live at https://sunchhayk.github.io/kol-portfolio/ (repo: github.com/SunchhayK/kol-portfolio)
+
+Push to `main` and the deploy workflow rebuilds and republishes. Five placeholders still need
+filling before it is truly finished, listed at the bottom.
 
 ## Decisions (from the grill, 2026-10-21)
 
@@ -52,7 +55,7 @@ Status: built, verified, ready to deploy once the five placeholders are filled.
   The resume sheet needed its own z-index to stay white.
 - Raw `<a href="/...">` misses the basePath. Use `next/link` or `asset()`.
 
-## Placeholders Roit must fill before deploy
+## Placeholders Roit must fill before the site is finished
 
 1. `NEXT_PUBLIC_BASE_PATH` — GitHub Pages path. Workflow handles it; check the repo name.
 2. Telegram handle — `data/site.ts`, `telegramHandle`. Currently `YOUR_TELEGRAM_HANDLE`.
